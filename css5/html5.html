@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo</title>
+    <link rel="stylesheet" href="css5.css">
+</head>
+<body>
+    <div class="topper">
+        <img src="images/Nintendo-logo.png" alt="logo" class="logo">
+        <div class="serch-box">
+            <img src="images/search.svg" class="search ">
+            <a class="underline">Search games, hardware, news etc. </a>
+            <a class="dropdown">
+                <button onclick="myFunction()" class="dropbtn underline">All categories  ▼ </button>
+                <div id="myDropdown" class="dropdown-content ">
+                    <a>All categories</a>
+                    <a>Games</a>
+                    <a>Hardware</a>
+                    <a>Merchendise</a>
+                    <a>News & Events</a>
+                    <a>Support</a>
+    
+                </div>
+              </a>
+                 <img src="images/headphones.png" class="support">
+                <a>Support</a>
+                <img src="images/heart.svg" class="heart">
+                <a>Wish List</a>
+                <img src="images/cart.svg" class="cart">
+                <a>Cart</a>
+                <img src="images/user.png" class="user">
+                <a>Log in/Sign up</a>
+                <img src="images/flag.png" class="flag">
+        </div>
+       
+          
+    </div>
+    <hr class="solid"> 
+    <div class="topper-2">
+      <img src="images/store.png" class="store">
+      <a>My Nintendo Store ▼</a>
+      <img src="images/gamepad.png" class="gamepad">
+      <a>Games ▼</a>
+      <img src="images/nintendo-switch.png" class=" nintendo-switch">
+      <a>Nintendo Switch ▼</a>
+      <img src="images/newspaper.png" class="news">
+      <a>News & Events ▼</a>
+      <img src="images/star.svg" class="star">
+      <a>Play Nintendo ▼</a>
+    </div>
+    <hr class="solid black">  
+    <div class="topper-3">
+              <img src="images/truck.png" class="truck">
+              <a><b>Free shipping</b> on orders $50 or more. <a class="underline">Restrictions only  </a> <a class="bar">|</a></a>
+              <img src="images/badge.png" class=" point">
+              <a>Earn <b class="underline">My Nintendo Points</b> on digital games</a>
+    </div>
+    <div class="light-blue">
+      <div class="white">
+    <div class="text-1">Store > Games > Stardew Valley  </div>
+    <div class="hero-1">
+      
+      <div class="sixty">
+        <img src="images/hero-image.avif" class="hero-image">
+        <div class="row ">
+          <div class="column">
+            <img src="images/stardew-1.webp" style="width:100px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor radius">
+          </div>
+          <div class="column">
+            <img src="images/stardew-2.webp" style="width:100px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor radius">
+          </div>
+          <div class="column">
+            <img src="images/stardew-3.jpeg" style="width:100px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor radius">
+          </div>
+          <div class="column">
+            <img src="images/stardew-4.jpg" style="width:100px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor radius">
+          </div>
+          <div class="column">
+            <div class="column">
+            <img src="images/stardew-5.jpg" style="width:100px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor radius">
+          </div>
+        
+        </div>
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="images/stardew-1.webp" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="images/stardew-2.webp" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="images/stardew-3.jpeg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="images/stardew-4.jpg" style="width:100%">
+            </div>
+            
+            
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="images/stardew-5.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="images/stardew-6.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+            <div class="column">
+              <img class="demo cursor" src="images/stardew-1.webp" style="width:100%" onclick="currentSlide(1)">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/stardew-2.webp" style="width:100%" onclick="currentSlide(2)">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/stardew-3.jpeg" style="width:100%" onclick="currentSlide(3)" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/stardew-4.jpg" style="width:100%" onclick="currentSlide(4)">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/stardew-5.jpg" style="width:100%" onclick="currentSlide(5)" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/stardew-6.jpg" style="width:100%" onclick="currentSlide(6)">
+            </div>
+          </div>
+          
+        </div>
+        <br>
+        <div class="esrb-logo">
+          <img src="images/esrb.png " class=" esrb">
+        <div class="esrb-text">
+          <a >Fantasy Violence, Use of Alcohol, Use of Tobacco, Simulated<br>
+          Gambling, mild Language, mild Blood</a>
+          <hr class="solid"> 
+          <a>Users Interact</a>
+        </div>
+        </div>
+        </div>
+    
+
+</div>
+<section class="forty">
+  <span class="sub-title"><a class="red">|</a> Nintendo Switch</span><br>
+  <span class="title-1"><b>Stardew Valley</b></span><br>
+  <a class="price"><b>$14.99</b>
+    <img src="images/heart.png" class="heart-2"></a> 
+  
+  <br>
+  <img src="images/coin.png" class="coin"> 
+  <a>Eligible for up to <b>75</b> Gold Points</a><br>
+  <button class="button-1">
+    <img src="images/download.svg" class="download">
+    <a class="download-text"><b>Direct download</b></a></button><br>
+    <a>This item will be sent to your system automatically after purchase.</a>
+</section>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    </div>
+  </div>
+</div>
+    <hr class="solid"> 
+<div class="hero-2">
+  <div class="half-1">
+<h2>You're moving to the valley...</h2><br>
+<a class="text-hero-2">You've inherited your grandfather's farm plot in Stardew Valley.<br>
+Armed with hand-me-down tools and a few coins, you set out to<br>
+begin your new life. Can you learn to live off the land and turn these<br>
+overgrown fields into a thriving home? It won't be easy. Ever since<br>
+Joja Corporation came to town, the old ways of life have all but <br>
+dissappeared. The community center, once the town's most vibrant<br>
+hub of activity, now lies in shambles.But the valley seems full of<br>
+opportunity. With a  little dedication, you might just be the one to<br>
+restore Stardew Valley to greatness!<br>
+<br>
+Now with multiplayer! Invite 1-3 players to join you in the valley!...
+</a>
+<div class="read-more">
+  <img src="images/plus.png" class="plus">
+  <a class="red"><b>Read more</b></a>
+</div><br>
+<a>Software description provided by the publisher.</a><br>
+<button class="button-2">
+  <a class="download-text-2"><b>Explore this game's official website</b></a></button>
+</div>
+<div class="half-2">
+  <img src="images/hero-image.avif" class="hero-image-2">
+</div>
+</div>
+<hr class="solid"> 
+<div class="division">
+<div class="one">
+  <a class="esrb-title"><b>ESRB Rating</b></a>
+  <div class="esrb-rating">
+    <div class="esrb-logo">
+      <img src="images/esrb.png " class=" esrb-2">
+    <div class="esrb-text-2">
+      <a >Fantasy Violence, Use of Alcohol, Use of Tobacco, Simulated<br>
+      Gambling, mild Language, mild Blood</a>
+      <hr class="solid black"> 
+      <a>Users Interact</a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="two">
+  <a class="devices-title"><b>Supported play modes</b></a>
+  <div class="sections">
+
+    <div class="section-1">
+      <img src="images/tv.png" class="tv"><br>
+      <a><b>TV</b></a>
+    </div>
+    <div class="section-2">
+      <img src="images/tablet.png"class="tablet"><br>
+      <a><b>Tabletop</b></a>
+    </div>
+    <div class="section-3">
+      <img src="images/handheld.png" class="handheld"><br>
+      <a><b>Handheld</b></a>
+    </div>
+  </div>
+</div>
+</div>
+ 
+<div class="info">
+  <hr class="solid-1">
+      <div class="realease-date">
+        <img src="images/calendar.png" class="calendar">
+        <a ><b>Realease date</b></a>
+        <a class="realease-date-text">Octomber 5, 2017</a>
+      </div>
+        <hr class="solid-1"> 
+      <div class="players">
+        <img src="images/people.png" class="people">
+        <a><b>No. of players</b></a>
+        <div class="playing">
+          <a class="red underline player-1"><b>Single System(1)</b></a>
+          <a class="red underline player-2"><b>Local wireless(1)</b></a>
+          <a class="red underline player-3"><b>Online(1-4)</b></a>
+        </div>
+      </div>
+        <hr class="solid-1"> 
+      <div class="genres">
+        <img src="images/genre.png" class="genre">
+        <a><b>Genre</b></a>
+        <div class="types">
+          <a class="red underline type-1"><b>Role-playing</b></a>
+          <a class="red underline type-2"><b>Simulation</b></a>
+        </div>
+      </div>
+        <hr class="solid-1"> 
+      <div class="publisher">
+        <img src="images/building.png" class="building">
+        <a><b>Publisher</b></a>
+        <a class="red underline publisher-text"><b>ConcernedApe</b></a>
+      </div>
+        <hr class="solid-1"> 
+      <div class="ratings">
+        <img src="images/settings.png" class="rating">
+        <a><b>ESRB rating</b></a>
+        <a class="red underline rating-10"><b>Everyone 10+</b></a>
+      </div>
+        <hr class="solid-1"> 
+      <div class="supported-play-modes">
+        <img src="images/console.png" class="console">
+        <a><b>Supported play modes</b></a>
+        <a class="play-modes-text">TV mode, Tabletop mode, Handheld mode</a>
+      </div>
+        <hr class="solid-1"> 
+      <div class="file-size">
+        <img src="images/coins.png" class="drive">
+        <a><b>Game file size</b></a>
+        <a class="size">1.5 GB</a>
+      </div>
+        <hr class="solid-1"> 
+      <div class="supported-languages">
+        <img src="images/world.png" class="world">
+        <a><b>Supported languages</b></a>
+        <div class="languages">Japanese, French, German, Italian, Spanish, Korean, Portugese, Russian, Simplified Chinese,<br>
+        Latin American Spanish, Traditional Chinese, American English</div>
+      </div>
+        <hr class="solid-1">
+
+</div>
+<div class="hero-3">
+<div class="gray">
+  <div class="part-1">
+    <img src="images/nintendo-switch-logo.svg.png" class="online-logo">
+    <a class="hero-3-text-1">Play online classic NES™ and Super NES™<br>
+    games, and more with a Nintendo Switch Online<br>
+    membership.</a>
+    <br>
+    <div class="hero-3-text-2">This game supports:
+      <a><b class="red underline supported-mode-1"> Online Play </b></a>
+      <a><b class="red underline supported-mode-2"> Save Data Cloud</b></a>
+    </div>
+    <button class="button-3">
+      <a class="hero-3-button"><b>Learn more</b></a></button>
+    </div>
+    <div class="part-2">
+      <img src="images/game.png" class="game">
+    </div>
+  </div>
+</div>
+<div class="hero-4">
+    <div class="hero-4-text">More like this</div>
+    <div class="other-games">
+      <div class="ooblets">
+        <img src="images/ooblets-image.jpeg" class="ooblets-image">
+        <a class="ooblets-title">Ooblets</a><br>
+        <a class="ooblets-date">9/1/22</a>
+        <br>
+        <a class="ooblets-price">$29.99</a><br>
+        <div class="down">
+        <span class="sub-title-ooblets"><a class="red">|</a> Nintendo Switch</span>
+        <img src="images/heart.png" class="heart-hero-4"></a><br>
+      </div>
+      </div>
+      <div class="potion-permit">
+        <img src="images/potion-permit-image.jpg" class="potion-permit-image">
+        <a class="potion-permit-title">Potion Permit</a><br>
+        <a class="potion-permit-date">9/22/22</a>
+        <br>
+        <a class="potion-permit-price">$19.99</a><br>
+        <div class="down">
+        <span class="sub-title-potion-permit"><a class="red">|</a> Nintendo Switch</span>
+        <img src="images/heart.png" class="heart-hero-4"></a><br>
+        </div>
+      </div>
+      <div class="cozy-grove">
+        <img src="images/cozy-grove-image.jpg" class="cozy-grove-image">
+        <a class="cozy-grove-title">Cozy Grove</a><br>
+        <a class="cozy-grove-date">4/8/21</a>
+        <br>
+        <a class="cozy-grove-price">$14.99</a><br>
+        <div class="down">
+          <span class="sub-title-cozy-grove"><a class="red">|</a> Nintendo Switch</span>
+          <img src="images/heart.png" class="heart-hero-4"></a><br>
+        </div>
+       
+      </div>
+    </div>
+
+</div>
+<div class="footer-text">
+   <div>WARNING: If you have epilepsy or have had seizures or other unusual reactions to 
+    flashing lights or patterns, consult a doctor before playing video games. All users 
+    should read the Health and Safety</div>
+    <div>Information Available in the system settings using this software</div><br>
+    <div>Nintendo Switch Online membership (sold separately) and Nintendo Account required for online play.
+      Not available in all countries. 
+      Internet access required for online features. Terms
+    </div>
+    <div>
+      apply. nintendo.com/switch-online
+    </div><br>
+    <div>Stardew Valley © ConcernedApe LLC 2016-2020.All rights reserved.</div>
+
+  </div>
+  <div class="footer">
+    <div class="social">
+     <img src="images/Nintendo-logo.png" class="logo-footer" >
+     <img src="images/facebook-logo.png" class="facebook-logo">
+     <img src="images/instagram-logo.png" class="instagram-logo">
+     <img src="images/twitter-logo.png" class="twitter-logo">
+     <img src="images/youtube-logo.png" class="youtube-logo">
+    </div>
+    <div class="footer-menu"> 
+      <div class="menu-1">
+        <div class="options">
+          <hr class="solid right"> 
+          <div class="vertical">
+            <a class="title-footer">About Nintendo</a>
+            <a class="red sub-title-footer">Careers</a>
+            <a class="red sub-title-footer">Corporate Social Responsibility</a>
+          </div>
+        </div>
+        <div class="options">
+          <hr class="solid right left"> 
+          <div class="vertical">
+            <a class="title-footer">Shop</a>
+            <a class="red sub-title-footer">Games</a>
+            <a class="red sub-title-footer">Harware</a>
+            <a class="red sub-title-footer">Merchandise</a>
+            <a class="red sub-title-footer">Sales& deals</a>
+            <a class="red sub-title-footer">Exclusives</a>
+            <a class="red sub-title-footer">Online service</a>
+            <a class="red sub-title-footer">Nintendo NY store</a>
+          </div>
+        </div>
+        <div class="options">
+          <hr class="solid right left-2"> 
+          <div class="vertical">
+            <a class="title-footer">My Nintendo Store orders</a>
+            <a class="red sub-title-footer">Order details</a>
+            <a class="red sub-title-footer">shipping info</a>
+            <a class="red sub-title-footer">Returns & exchanges</a>
+            <a class="red sub-title-footer">FAQ</a>
+          </div>
+        </div>
+        <div class="options">
+          <hr class="solid right left"> 
+          <div class="vertical">
+            <a class="title-footer">Support</a>
+            <a class="red sub-title-footer">Nintendo Switch</a>
+            <a class="red sub-title-footer">Nintendo Account</a>
+            <a class="red sub-title-footer">Other systems</a>
+            <a class="red sub-title-footer">Repairs</a>
+            <a class="red sub-title-footer">Nintendo product recycling</a>
+          </div>
+        </div>
+    </div>
+  
+    <div class="menu-2">
+
+      <div class="options">
+        <hr class="solid right"> 
+        <div class="vertical">
+          <a class="title-footer">Parents</a>
+          <a class="red sub-title-footer">Info for parents</a>
+          <a class="red sub-title-footer">Parental controls
+          </a>
+        </div>
+      </div>
+      <div class="options">
+        <hr class="solid right left-3"> 
+        <div class="vertical">
+          <a class="title-footer">Community</a>
+          <a class="red sub-title-footer">Community guidelines</a>
+          <a class="red sub-title-footer">Online safety principles</a>
+        </div>
+      </div>
+      <div class="options">
+        <hr class="solid right left-4"> 
+        <div class="vertical">
+          <a class="title-footer">Privacy</a>
+          <a class="red sub-title-footer">Privacy policy</a>
+          <a class="red sub-title-footer">Cookies and interst-based ads</a>
+        </div>
+      </div>
+      <br>
+      
+  </div>
+  <div>
+    <img src="images/esrb-footer.png" class="esrb-footer">
+
+  </div>
+  <div>
+    
+    <div class="footer-black">
+      <div class="footer-black-half-1">
+          <div>© Nintendo. Games are property of their respective owners. 
+            Nintendo of America Inc.
+          </div>
+          <div>Headquarters are in Redmond, Whashington, USA</div>
+      </div>
+      <div class="footer-black-half-2">
+          <div>
+            <a class="contact-us">Contact us</a>
+            <a class="footer-element">Website feeback</a>
+            <a class="footer-element">Terms of use</a>
+            <a class="footer-element">Documents & Policies</a>
+          
+           
+          </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+  </div>
+
+  
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+        
+
+</body>
+</html>
